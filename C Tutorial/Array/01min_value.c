@@ -9,6 +9,9 @@ int main()
     {
         scanf("%d",&my_array[loop]);
     }
+    printf("The Break point You has reached:");
+        printf("The Break point You has crossed:");
+
     int min = my_array[0];
     for(int i=1;i<num;i++)
     {

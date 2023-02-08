@@ -2,17 +2,17 @@
 #define MAX 15
 int main()
 {
-    long long int array[MAX],pos=0;
+    long long int array[MAX];
+    int pos=0;
     long long int a=1,b=3,c=0;
     int i,j;
-    array[0]=1;
-    array[1]=3;
-    for(i=2,j=3;i<MAX;i++,j++)
+    array[0]=0;
+    array[1]=1;
+    for(i=2;i<MAX;i++)
     {
-        c=a*b;
-        array[j]=c;
-        a=b;
-        b=c;
+        
+        array[i]=array[i-1]+array[i-2];
+         
     }
     printf("Enter the Position:");
     scanf("%d",&pos);
