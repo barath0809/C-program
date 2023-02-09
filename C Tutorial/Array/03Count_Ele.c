@@ -10,7 +10,7 @@ int main()
 int count_elements(int array[],int length,int number)
 {
     int count = 0;
-    for(int loop=0;loop<length;loop++)
+    for(int loop=0;loop<length;++loop)
 {
     if(array[loop]==number)
     count++;
