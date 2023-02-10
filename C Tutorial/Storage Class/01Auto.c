@@ -6,7 +6,7 @@
 4.'auto' is keyword,it also intially hold the garbage value.
 */
 #include "stdio.h"
- int var = 1;
+// int var = 1; Thre is automatically initialize by static
  int main()
 {
     auto int first_var = 10;
