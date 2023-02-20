@@ -14,7 +14,7 @@ int main()
         printf("%d",array[j][Col]);
     }
     Row=Col;
-     printf("Col valu:%d",j);
+    // printf("Col valu:%d",j);
     for(k=j-2;k<Col-2;k--)
     {
         printf("%d",array[Row][k]);
