@@ -10,7 +10,7 @@ int main()
 
         {
                 
-        // Bottom 
+        // Bottom Veena 
         for(int i=cl_end;i>=cl_st;i--)
         {
            arr[r_end][i]=tot--;
