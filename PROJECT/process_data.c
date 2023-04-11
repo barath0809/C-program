@@ -2,7 +2,7 @@
 int process_data(int data_high,int data_low)
 {
    __int16 original_value = (data_high<<8)|data_low;
-   float temp_in_Celsious= (original_value*0.016)/0.5;
+   float temp_in_Celsious= (original_value*0.016)+0.5;
    return temp_in_Celsious;
 }
 int main()
