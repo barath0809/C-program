@@ -1,0 +1,1 @@
+ scanf("%d",&reverce_number);
