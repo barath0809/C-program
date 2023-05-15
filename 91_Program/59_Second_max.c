@@ -11,13 +11,14 @@ int main()
     count = sizeof(linear_array)/sizeof(linear_array[0]);
     for(int loop=0;loop<count;loop++)
     {
-        first_max=linear_array[0];
+        //first_max=linear_array[0];
         if(first_max<linear_array[loop])
         {
             second_max = first_max;
             first_max = linear_array[loop];
         }
     }
-    printf("The maximum in this array:-> %d",second_max);
+    printf("The second_maximum in this array:-> %d",second_max);
+     //printf("The maximum in this array:-> %d",first_max);
     return 0;
 }
