@@ -1,7 +1,7 @@
 /*
 To Left shift the array elements..
 input :-> 1,2,3,4,5
-output:-> 4,5,3,2,1
+output:-> 4,5,1,2,3
 */
 #include "stdio.h"
 #define ROTATION 2
